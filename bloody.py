@@ -56,7 +56,7 @@ async def on_ready():
    """)
  
 ok.remove_command('help')
-token = ""
+token = "enter token here"
 @ok.command(aliases=['help', 'h'])
 async def Help(ctx):
   await ctx.send("""
@@ -80,7 +80,7 @@ async def Help(ctx):
   • masschannel (amount)(name)
   • deletechannel (dch)
   • wizz
-      -   RAVE ON TOP  -```**
+      -   SUPERSTAR ON TOP  -```**
 """)  
 @ok.command()
 async def spam(ctx, message_count: int, *, content):
